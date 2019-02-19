@@ -1,0 +1,22 @@
+{
+  "name": "mobile-automation-selectors",
+  "version": "1.0.1",
+  "description": "accessibilityLabel and testID selectors for Android and iOS test automation",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blueberryapps/mobile-automation-selectors.git"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.6",
+    "@types/node": "^11.9.4",
+    "jest": "^24.1.0",
+    "ts-jest": "^24.0.0",
+    "typescript": "^3.3.3"
+  },
+  "author": "dnguyenba <dnguyenba@blueberryapps.com>",
+  "license": "MIT"
+}
