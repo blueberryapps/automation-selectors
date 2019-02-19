@@ -1,6 +1,6 @@
 {
-  "name": "mobile-automation-selectors",
-  "version": "1.0.1",
+  "name": "automation-selectors",
+  "version": "1.0.0",
   "description": "accessibilityLabel and testID selectors for Android and iOS test automation",
   "scripts": {
     "build": "tsc",
