@@ -1,7 +1,8 @@
 {
   "name": "automation-selectors",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "accessibilityLabel and testID selectors for Android and iOS test automation",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "test": "jest"
