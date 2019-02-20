@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`android returns accessibilityLabel 1`] = `
+Object {
+  "accessibilityLabel": "BUTTON",
+}
+`;
+
+exports[`ios returns testID 1`] = `
+Object {
+  "testID": "BUTTON",
+}
+`;
+
+exports[`others (web) returns data-test 1`] = `
+Object {
+  "data-test": "BUTTON",
+}
+`;
