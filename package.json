@@ -19,5 +19,12 @@
     "typescript": "^3.3.3"
   },
   "author": "dnguyenba <dnguyenba@blueberryapps.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": [
+    "appium",
+    "automation",
+    "testID",
+    "accessibilityLabel",
+    "data-test"
+  ]
 }
