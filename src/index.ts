@@ -1,17 +1,17 @@
 interface qaIDProps {
-  [attrName: string]: string
+  [attrName: string]: string;
 }
 
-export function qaID(platform: string, locator: string): qaIDProps {
+export function qaID(locator: string, platform?: string): qaIDProps {
   const attrName = () => {
-    switch(platform) {
-      case 'ios':
-        return 'testID'
-      case 'android':
-        return 'accessibilityLabel';
+    switch (platform) {
+      case "ios":
+        return "testID";
+      case "android":
+        return "accessibilityLabel";
       default:
-        return 'data-test';
-    };
+        return "data-test";
+    }
   };
-  return  { [attrName()]: locator };
-};
+  return { [attrName()]: locator };
+}

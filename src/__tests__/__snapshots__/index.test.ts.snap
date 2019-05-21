@@ -12,6 +12,12 @@ Object {
 }
 `;
 
+exports[`no platform received (web) also returns data-test 1`] = `
+Object {
+  "data-test": "BUTTON",
+}
+`;
+
 exports[`others (web) returns data-test 1`] = `
 Object {
   "data-test": "BUTTON",
