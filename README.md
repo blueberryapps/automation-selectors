@@ -17,7 +17,7 @@ A mini-package for iOS (testID), Android (accessibilityLabel) and web (data-test
    ```
 
 2. In your project create a module and pass in all the necessary props.
-   Example:
+   RN Example:
 
    ```js
    import { Platform } from "react-native";
@@ -26,6 +26,18 @@ A mini-package for iOS (testID), Android (accessibilityLabel) and web (data-test
    export const selector = (selectorValue?: string) => {
      if (process.env.NODE_ENV !== "production") {
        return qaID(selectorValue || "", Platform.OS);
+     }
+   };
+   ```
+   
+   Web Example:
+
+   ```js
+   import { qaID } from "automation-selectors";
+
+   export const selector = (selectorValue?: string) => {
+     if (process.env.NODE_ENV !== "production") {
+       return qaID(selectorValue || "", 'web');
      }
    };
    ```
