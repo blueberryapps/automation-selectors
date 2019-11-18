@@ -17,6 +17,7 @@ A mini-package for iOS (testID), Android (accessibilityLabel) and web (data-test
    ```
 
 2. In your project create a module and pass in all the necessary props.
+   
    RN Example:
 
    ```js
