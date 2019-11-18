@@ -1,10 +1,10 @@
-# Automation selectors for Mobile Apps
+# Automation selectors for Web and Mobile Apps
 
-A mini-package for iOS (testID), Android (accessibilityLabel) and web (data-test) property assignment based on TEST_ENV & Platform.
+A mini-package for iOS (testID), Android (accessibilityLabel) and web (data-test) property assignment based on environment & Platform.
 
 ## Installation
 
-### Install automation-selectors with NPM and use with react-native projects
+### Install automation-selectors with NPM or yarn
 
 1. Add automation-selectors as a devDependency:
 
