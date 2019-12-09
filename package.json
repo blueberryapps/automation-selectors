@@ -19,7 +19,7 @@
     "typescript": "^3.3.3"
   },
   "author": "dnguyenba <dnguyenba@blueberryapps.com>",
-  "license": "MIT",
+  "license": "GNU General Public License v3",
   "keywords": [
     "appium",
     "automation",
